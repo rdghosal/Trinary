@@ -1,4 +1,4 @@
-# Trinary
+# Trinary.py
 Last updated: 8 November 2019
 
 ## USAGE
