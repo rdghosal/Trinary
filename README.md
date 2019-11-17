@@ -18,7 +18,7 @@ The name *Trinary* relates to the program's methodology, inherent in which is a 
 It was originally designed for a situation in which multiple departments were moving project folders from one drive to another.
 In the new drive, marker (or dummy) folders were made, whose names would be identical to those of the folders in the original drive, except for an appended marker separated by an underscore (_). 
 
-e.g., `original_folder_name<mark>_------</mark>`
+e.g., `OriginalFolderName_------`
 
 In this folder name, each of these hyphens in the marker string represent one of three values: X, 1, 0 (hence the name). 
 Departments have a specific index in the string determined by the order the user inputs the departments in their organization (e.g., in an input of `sales, marketing`, `sales` is represented by `marker_string[0]` and `marketing` by `marker_string[1]`).
